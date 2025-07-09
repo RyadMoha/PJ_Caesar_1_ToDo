@@ -1,12 +1,67 @@
-# React + Vite
+# 🏛️ Caesar — To-do List React (Bloc 1 du CRM Freelance)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Caesar est le **projet de base** de mon futur projet, codé étape par étape pour **apprendre React de manière concrète et durable**.
 
-Currently, two official plugins are available:
+Ce projet correspond au **Bloc 1** de ma roadmap :  
+> 👉 Comprendre et maîtriser **React + JSX**, les `props`, `useState`, les événements, et la logique de composants.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🎯 Objectif pédagogique
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Apprendre à construire une interface interactive avec React
+- ✅ Manipuler des données dynamiques avec `useState`
+- ✅ Gérer des événements utilisateur (`onClick`, `onChange`)
+- ✅ Utiliser `localStorage` pour conserver les données
+- ✅ Structurer son code en composants réutilisables
+- ✅ Organiser visuellement son app en colonnes (Kanban-like)
+- ✅ Styliser l’interface avec un thème **mode nuit**
+
+---
+
+## 🛠️ Fonctionnalités
+
+- 📝 Ajouter une tâche
+- ✅ Marquer une tâche comme faite (cycle : à faire → en cours → terminé → à faire)
+- 🗑️ Supprimer une tâche
+- 📦 Affichage dans **3 colonnes** selon le statut
+- 💾 Sauvegarde automatique dans `localStorage`
+- 🌒 Interface en **dark mode** propre et lisible
+- ✨ Animation d’apparition des tâches
+
+---
+
+## 📂 Structure du code
+
+- `App.jsx` : composant principal (logique, état global, rendu)
+- `Tache.jsx` : composant réutilisable pour chaque tâche
+- `App.css` : style global + dark mode
+
+---
+
+## ▶️ Lancer le projet en local
+
+1. Cloner le repo :
+
+```bash
+git clone https://github.com/ton-utilisateur/caesar-todo.git
+cd caesar-todo
+```
+
+2. CInstaller les dépendances :
+
+```bash
+npm install
+```
+
+3. Lancer le serveur local :
+
+```bash
+npm run dev
+```
+
+## Ajouts possbiles :
+
+- Drag & Drop
+- Authentification
+- Supprimer le cache
