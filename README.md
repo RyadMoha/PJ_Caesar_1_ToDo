@@ -1,4 +1,4 @@
-# 🏛️ Caesar — To-do List React (Bloc 1 du CRM Freelance)
+# 🏛️ Caesar — To-do List React (Bloc 1 du Projet Caesar)
 
 Caesar est le **projet de base** de mon futur projet, codé étape par étape pour **apprendre React de manière concrète et durable**.
 
